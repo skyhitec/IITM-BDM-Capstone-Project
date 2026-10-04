@@ -1,7 +1,0 @@
-# Explicitly declare binary files to prevent CRLF corruption and force GitHub PDF viewer
-*.pdf binary
-*.xlsx binary
-*.docx binary
-*.pptx binary
-*.png binary
-*.jpg binary
