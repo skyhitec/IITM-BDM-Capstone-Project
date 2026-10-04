@@ -5,11 +5,11 @@
   --bg-card-hover: #24344f;
   --border: rgba(255, 255, 255, 0.08);
   --border-active: rgba(6, 182, 212, 0.4);
-  
+
   --text-main: #f8fafc;
   --text-sub: #94a3b8;
   --muted: #64748b;
-  
+
   --cyan: #06b6d4;
   --cyan-glow: rgba(6, 182, 212, 0.25);
   --emerald: #10b981;
@@ -19,13 +19,13 @@
   --purple: #8b5cf6;
   --purple-glow: rgba(139, 92, 246, 0.25);
   --rose: #f43f5e;
-  
+
   --font-heading: 'Outfit', sans-serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 20px;
-  --shadow-lg: 0 20px 25px -5px rgba(0,0,0,0.5), 0 8px 10px -6px rgba(0,0,0,0.5);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -324,10 +324,21 @@ body.dark-theme {
   height: 3px;
 }
 
-.metric-card.cyan::before { background: var(--cyan); }
-.metric-card.emerald::before { background: var(--emerald); }
-.metric-card.amber::before { background: var(--amber); }
-.metric-card.purple::before { background: var(--purple); }
+.metric-card.cyan::before {
+  background: var(--cyan);
+}
+
+.metric-card.emerald::before {
+  background: var(--emerald);
+}
+
+.metric-card.amber::before {
+  background: var(--amber);
+}
+
+.metric-card.purple::before {
+  background: var(--purple);
+}
 
 .m-title {
   font-size: 0.85rem;
@@ -352,9 +363,17 @@ body.dark-theme {
   gap: 0.3rem;
 }
 
-.m-sub.positive { color: var(--emerald); }
-.m-sub.warning { color: var(--amber); }
-.m-sub.negative { color: var(--rose); }
+.m-sub.positive {
+  color: var(--emerald);
+}
+
+.m-sub.warning {
+  color: var(--amber);
+}
+
+.m-sub.negative {
+  color: var(--rose);
+}
 
 .grid-2 {
   display: grid;
@@ -363,7 +382,9 @@ body.dark-theme {
 }
 
 @media (max-width: 992px) {
-  .grid-2 { grid-template-columns: 1fr; }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
 }
 
 .chart-box {
@@ -380,7 +401,9 @@ body.dark-theme {
 }
 
 @media (max-width: 992px) {
-  .pos-grid { grid-template-columns: 1fr; }
+  .pos-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .detail-strip {
@@ -394,8 +417,13 @@ body.dark-theme {
   font-size: 0.85rem;
 }
 
-.detail-strip .lbl { color: var(--muted); }
-.detail-strip .val { font-weight: 700; }
+.detail-strip .lbl {
+  color: var(--muted);
+}
+
+.detail-strip .val {
+  font-weight: 700;
+}
 
 .cart-summary {
   background: var(--bg-card);
@@ -520,7 +548,8 @@ body.dark-theme {
   font-weight: 600;
 }
 
-.form-control, .form-select {
+.form-control,
+.form-select {
   width: 100%;
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -533,7 +562,8 @@ body.dark-theme {
   transition: all 0.2s ease;
 }
 
-.form-control:focus, .form-select:focus {
+.form-control:focus,
+.form-select:focus {
   border-color: var(--cyan);
   box-shadow: 0 0 0 3px var(--cyan-glow);
 }
@@ -688,7 +718,10 @@ body.dark-theme {
 .modal {
   display: none;
   position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(8px);
   z-index: 1000;
@@ -714,8 +747,15 @@ body.dark-theme {
 }
 
 @keyframes modalIn {
-  from { opacity: 0; transform: scale(0.95); }
-  to { opacity: 1; transform: scale(1); }
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .modal-head {
@@ -735,7 +775,9 @@ body.dark-theme {
   gap: 0.5rem;
 }
 
-.modal-head h3 i { color: var(--cyan); }
+.modal-head h3 i {
+  color: var(--cyan);
+}
 
 .close {
   font-size: 1.5rem;
@@ -744,7 +786,9 @@ body.dark-theme {
   transition: color 0.2s;
 }
 
-.close:hover { color: var(--rose); }
+.close:hover {
+  color: var(--rose);
+}
 
 /* SCANNER MODAL */
 .scanner-viewport {
@@ -758,7 +802,7 @@ body.dark-theme {
 
 .scanner-icon {
   font-size: 5rem;
-  color: rgba(255,255,255,0.2);
+  color: rgba(255, 255, 255, 0.2);
 }
 
 .laser-line {
@@ -773,8 +817,13 @@ body.dark-theme {
 }
 
 @keyframes scanLaser {
-  from { top: 10%; }
-  to { top: 90%; }
+  from {
+    top: 10%;
+  }
+
+  to {
+    top: 90%;
+  }
 }
 
 .qr-box {
@@ -793,5 +842,10 @@ body.dark-theme {
   margin-top: 1rem;
 }
 
-.text-emerald { color: var(--emerald); }
-.text-cyan { color: var(--cyan); }
+.text-emerald {
+  color: var(--emerald);
+}
+
+.text-cyan {
+  color: var(--cyan);
+}
