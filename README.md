@@ -8,7 +8,7 @@
 
 ## 📌 Project Overview
 
-This repository contains the complete academic deliverables, data analytics models, and web-based business software for the **Business Data Management (BDM) Capstone Project** under the **IIT Madras Online BS Degree Program**.
+This repository contains the complete academic deliverables, project milestones, data analytics models, and web-based business software for the **Business Data Management (BDM) Capstone Project** under the **IIT Madras Online BS Degree Program**.
 
 - **Student Name**: Shudhanshu Kumar Yadav
 - **Roll Number**: `23F1000204`
@@ -17,15 +17,19 @@ This repository contains the complete academic deliverables, data analytics mode
 
 ---
 
-## 📂 Core Academic Deliverables
+## 📂 Academic Deliverables & Milestone Documents
 
-| File Name | Description |
-| :--- | :--- |
-| 📄 [`23F1000204_Final_Term.pdf`](./23F1000204_Final_Term.pdf) | Official Final Term Capstone Report submitted to IIT Madras. |
-| 📊 [`23F1000204_VIVA.pdf`](./23F1000204_VIVA.pdf) | Official Viva Voce Presentation Deck. |
-| 📈 [`BDM PPT - Copy.pptx`](./BDM%20PPT%20-%20Copy.pptx) | Editable PowerPoint Presentation with embedded charts. |
-| 📊 [`Anand_Pharma_BDM_Complete_Dataset.xlsx`](./Anand_Pharma_BDM_Complete_Dataset.xlsx) | Primary dataset (6-month transactions, ABC-FSN, Moving Avg). |
-| 📈 [`BDM_Charts/`](./BDM_Charts/) | High-resolution analytical visualization charts. |
+| Milestone / Deliverable | File Link | Description |
+| :--- | :--- | :--- |
+| 📝 **1. Project Proposal** | [`Proposal.pdf`](./Proposal.pdf) | Initial problem identification & project scope proposal. |
+| 📑 **2. Mid-Term Report** | [`Mid_Term.pdf`](./Mid_Term.pdf) | Mid-term analysis & primary dataset ingestion report. |
+| 📄 **3. Final Term Report** | [`23F1000204_Final_Term.pdf`](./23F1000204_Final_Term.pdf) | Official Final Term Capstone Report submitted to IIT Madras. |
+| 📊 **4. Viva Presentation** | [`23F1000204_VIVA.pdf`](./23F1000204_VIVA.pdf) | Official Viva Voce Presentation Deck. |
+| 📈 **5. Editable PPTX** | [`BDM PPT - Copy.pptx`](./BDM%20PPT%20-%20Copy.pptx) | Editable PowerPoint Presentation with embedded charts. |
+| 📊 **6. Complete Dataset** | [`Anand_Pharma_BDM_Complete_Dataset.xlsx`](./Anand_Pharma_BDM_Complete_Dataset.xlsx) | Primary dataset (6-month transactions, ABC-FSN, Moving Avg). |
+| ✅ **7. IITM Checklist** | [`Checklist for BDM Project.pdf`](./Checklist%20for%20BDM%20Project.pdf) | Official IIT Madras Capstone submission checklist. |
+| ℹ️ **8. Viva Instructions** | [`Information on Viva Voce.pdf`](./Information%20on%20Viva%20Voce.pdf) | Evaluation guidelines for Viva Voce examination. |
+| 📈 **9. Visual Charts** | [`BDM_Charts/`](./BDM_Charts/) | High-resolution analytical visualization charts. |
 
 ---
 
