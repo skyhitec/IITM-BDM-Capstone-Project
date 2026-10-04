@@ -1,0 +1,8 @@
+# Python & Temporary Files
+__pycache__/
+*.pyc
+~$*
+.DS_Store
+*.tmp
+.antigravity/
+.gemini/
